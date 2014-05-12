@@ -9,8 +9,9 @@ html {
 }
 
 h1 {
-  font-size: 84px;
+  font-size: 92px;
   font-weight: 900;
+  letter-spacing: -3px;
 }
 
 a {
@@ -26,7 +27,7 @@ footer {
 }
 
 .button {
-  padding: .5em 1em;
+  padding: .65em 1.3em;
   color: white;
   background-color: rgba(255,0,78,.7);
   text-decoration: none;
@@ -34,7 +35,7 @@ footer {
   text-transform: uppercase;
   text-shadow: none;
   font-weight: 600;
-  font-size: 85%;
+  font-size: 90%;
   letter-spacing: 1px;
   transition: background-color 250ms;
 }
