@@ -5,6 +5,7 @@ html {
   background: black url(images/tamp.jpg) no-repeat;
   background-size: cover;
   min-height: 100%;
+  text-shadow: 0 1px 5px rgba(50,0,0,.5);
 }
 
 h1 {
@@ -16,27 +17,28 @@ a {
   color: currentColor;
 }
 
-section#order {
-  margin: 2em 0;
+header, footer, section {
+  margin: 4em 0;
 }
 
 footer {
-  margin-top: 5em;
   font-size: 75%;
 }
 
 .button {
-  padding: .8em 1.2em;
+  padding: .5em 1em;
   color: white;
-  background-color: rgba(255,96,0,.7);
+  background-color: rgba(255,0,78,.7);
   text-decoration: none;
-  border-radius: 15px;
+  border-radius: 12px;
   text-transform: uppercase;
+  text-shadow: none;
   font-weight: 600;
-  font-size: 75%;
+  font-size: 85%;
+  letter-spacing: 1px;
   transition: background-color 250ms;
 }
 
 .button:hover {
-  background-color: rgba(255,96,0,1);
+  background-color: rgba(255,0,78,1);
 }
