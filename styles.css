@@ -1,0 +1,42 @@
+html {
+  font: 24px "Source Sans Pro", sans-serif;
+  color: #ffddcd;
+  text-align: center;
+  background: black url(images/tamp.jpg) no-repeat;
+  background-size: cover;
+  min-height: 100%;
+}
+
+h1 {
+  font-size: 84px;
+  font-weight: 900;
+}
+
+a {
+  color: currentColor;
+}
+
+section#order {
+  margin: 2em 0;
+}
+
+footer {
+  margin-top: 5em;
+  font-size: 75%;
+}
+
+.button {
+  padding: .8em 1.2em;
+  color: white;
+  background-color: rgba(255,96,0,.7);
+  text-decoration: none;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 75%;
+  transition: all 250ms;
+}
+
+.button:hover {
+  background-color: rgba(255,96,0,1);
+}
