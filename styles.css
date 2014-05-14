@@ -27,7 +27,8 @@ footer {
 }
 
 .button {
-  padding: .65em 1.3em;
+  display: inline-block;
+  padding: .9em 1.3em;
   color: white;
   background-color: rgba(255,0,78,.7);
   text-decoration: none;
@@ -36,12 +37,16 @@ footer {
   text-shadow: none;
   font-weight: 600;
   font-size: 90%;
-  letter-spacing: 1px;
+  line-height: 1;
   transition: background-color 250ms;
 }
 
 .button:hover {
   background-color: rgba(255,0,78,1);
+}
+
+.button:active {
+  background-color: rgba(255,0,78,.8);
 }
 
 .button img {
